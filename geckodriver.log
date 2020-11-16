@@ -1,0 +1,424 @@
+1605467412574	geckodriver	INFO	Listening on 127.0.0.1:62338
+1605467418650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile6nkjzw"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605467450605	Marionette	INFO	Listening on port 62348
+[Parent 8988, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605467451223	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605467495522	Marionette	INFO	Stopped listening on port 62348
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605467603043	geckodriver	INFO	Listening on 127.0.0.1:62550
+1605467608431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilenhiKor"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605467610963	Marionette	INFO	Listening on port 62561
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605467611092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 697))
+[Parent 6892, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605479630961	Marionette	INFO	Stopped listening on port 62561
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605479735884	geckodriver	INFO	Listening on 127.0.0.1:52904
+1605479741108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilepuKB8n"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605479742616	Marionette	INFO	Listening on port 52915
+1605479742636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 308, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605479832605	Marionette	INFO	Stopped listening on port 52915
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605479834089	geckodriver	INFO	Listening on 127.0.0.1:53108
+1605479839431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofileytbr8K"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605479840994	Marionette	INFO	Listening on port 53119
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605479841469	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+[Parent 20412, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605479942203	Marionette	INFO	Stopped listening on port 53119
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605479944205	geckodriver	INFO	Listening on 127.0.0.1:53363
+1605479949542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilefCbM4Q"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605479951005	Marionette	INFO	Listening on port 53374
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605479951079	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 12696, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605480002850	Marionette	INFO	Stopped listening on port 53374
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605480004295	geckodriver	INFO	Listening on 127.0.0.1:53546
+1605480009539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile2ybQYM"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605480010985	Marionette	INFO	Listening on port 53556
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605480011065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 9056, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605480065468	Marionette	INFO	Stopped listening on port 53556
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605480066476	geckodriver	INFO	Listening on 127.0.0.1:53685
+1605480071900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofileiTkd6V"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605480073427	Marionette	INFO	Listening on port 53695
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605480073450	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 6920, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605480364364	Marionette	INFO	Stopped listening on port 53695
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605480368636	geckodriver	INFO	Listening on 127.0.0.1:54121
+1605480373932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilequtXFf"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605480375738	Marionette	INFO	Listening on port 54132
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605480375974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+JavaScript error: resource://devtools/client/inspector/boxmodel/box-model.js, line 463: TypeError: this.inspector.selection.nodeFront is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:1012:5\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child2/pagestyle26 (resource://devtools/server/actors/styles.js:1012:5)", "resource://devtools/shared/protocol/Front.js", 323))
+JavaScript error: resource://devtools/client/fronts/node.js, line 404: TypeError: this.parentFront is null
+JavaScript error: resource://devtools/client/fronts/node.js, line 404: TypeError: this.parentFront is null
+1605482297751	Marionette	INFO	Stopped listening on port 54132
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482313732	geckodriver	INFO	Listening on 127.0.0.1:56543
+1605482318889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile4yhxqj"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482320364	Marionette	INFO	Listening on port 56555
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605482320421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 10952, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605482378204	Marionette	INFO	Stopped listening on port 56555
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482379986	geckodriver	INFO	Listening on 127.0.0.1:56665
+1605482385404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofileVK2XUR"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482386901	Marionette	INFO	Listening on port 56676
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605482386945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 8808, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605482577754	Marionette	INFO	Stopped listening on port 56676
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482579091	geckodriver	INFO	Listening on 127.0.0.1:56901
+1605482584336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile5yi9MC"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482585859	Marionette	INFO	Listening on port 56913
+1605482585869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/jobs-68fd85a6ff491a301fa2.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 19700, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605482620582	Marionette	INFO	Stopped listening on port 56913
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482621947	geckodriver	INFO	Listening on 127.0.0.1:57010
+1605482627463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilez9mQIA"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482628954	Marionette	INFO	Listening on port 57021
+1605482628983	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605482692228	Marionette	INFO	Stopped listening on port 57021
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482694502	geckodriver	INFO	Listening on 127.0.0.1:57183
+1605482699516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofiletIVHvA"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482701067	Marionette	INFO	Listening on port 57193
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605482701554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 10912, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605482837728	Marionette	INFO	Stopped listening on port 57193
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482838897	geckodriver	INFO	Listening on 127.0.0.1:57588
+1605482843982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofileV2T2Gc"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482845539	Marionette	INFO	Listening on port 57599
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605482846012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 5204, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605482930492	Marionette	INFO	Stopped listening on port 57599
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605482931873	geckodriver	INFO	Listening on 127.0.0.1:57895
+1605482937101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilePeKxbE"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605482938549	Marionette	INFO	Listening on port 57911
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605482938618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 16180, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605483209497	Marionette	INFO	Stopped listening on port 57911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605483210951	geckodriver	INFO	Listening on 127.0.0.1:58689
+1605483216299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilevBLsim"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605483217983	Marionette	INFO	Listening on port 58702
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605483218348	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/jobs-68fd85a6ff491a301fa2.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 8336, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605483286809	Marionette	INFO	Stopped listening on port 58702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605483288930	geckodriver	INFO	Listening on 127.0.0.1:58881
+1605483294670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile6xhk7i"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605483296616	Marionette	INFO	Listening on port 58894
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605483296694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605483444681	Marionette	INFO	Stopped listening on port 58894
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605488919433	geckodriver	INFO	Listening on 127.0.0.1:61611
+1605488925379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilel9b7MM"
+1605488926891	Marionette	INFO	Listening on port 61623
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605488926956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 13656, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605488956178	Marionette	INFO	Stopped listening on port 61623
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605488961492	geckodriver	INFO	Listening on 127.0.0.1:61703
+1605488964574	geckodriver	INFO	Listening on 127.0.0.1:61708
+1605488969951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile5jJRMc"
+1605488971545	Marionette	INFO	Listening on port 61721
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605488972202	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 21092, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605489013028	Marionette	INFO	Stopped listening on port 61721
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489014655	geckodriver	INFO	Listening on 127.0.0.1:61844
+1605489019706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile0P7NtH"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605489021785	Marionette	INFO	Listening on port 61854
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489021862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 14560, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605489179407	Marionette	INFO	Stopped listening on port 61854
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489181192	geckodriver	INFO	Listening on 127.0.0.1:62208
+1605489186196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilekKmjG0"
+1605489188263	Marionette	INFO	Listening on port 62218
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489188360	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605489236202	Marionette	INFO	Stopped listening on port 62218
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489239411	geckodriver	INFO	Listening on 127.0.0.1:62314
+1605489244625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile0rOEeE"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605489246818	Marionette	INFO	Listening on port 62324
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489247269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/jobs-68fd85a6ff491a301fa2.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605489625440	Marionette	INFO	Stopped listening on port 62324
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489629369	geckodriver	INFO	Listening on 127.0.0.1:63105
+1605489634444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilejIcOIq"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605489637025	Marionette	INFO	Listening on port 63116
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489637094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1605489784594	Marionette	INFO	Stopped listening on port 63116
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489786738	geckodriver	INFO	Listening on 127.0.0.1:63304
+1605489792030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofile8mcbX7"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605489793541	Marionette	INFO	Listening on port 63315
+1605489793563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 19716, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605489854532	Marionette	INFO	Stopped listening on port 63315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489855892	geckodriver	INFO	Listening on 127.0.0.1:63438
+1605489860835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofilexbQHxF"
+1605489861968	Marionette	INFO	Listening on port 63449
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489862370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/jobs-68fd85a6ff491a301fa2.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+[Parent 17336, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1605489934697	Marionette	INFO	Stopped listening on port 63449
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605489937413	geckodriver	INFO	Listening on 127.0.0.1:63598
+1605489942583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nuno-\\AppData\\Local\\Temp\\rust_mozprofileaICPVo"
+JavaScript warning: moz-extension://38829c1e-c8ff-4ebc-8750-d86c60fd49c3/js/vendors.bundle.js, line 550: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1605489944133	Marionette	INFO	Listening on port 63609
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 2052: TypeError: addon is null
+1605489944619	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://angel.co/company/_next/static/chunks/pages/_app-153c644f1dca311a61de.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
