@@ -54,7 +54,7 @@ try:
     driver = webdriver.Chrome(options=options)
     """
 
-    profile = webdriver.FirefoxProfile(profile_directory="C:\\Users\\nuno-\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bfjmx9km.default-release")
+    profile = webdriver.FirefoxProfile()
     profile.set_preference('dom.webdriver.enabled', False)
     profile.set_preference('useAutomationExtension', False)
     profile.set_preference('general.useragent.override', user_agent)
