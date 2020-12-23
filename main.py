@@ -3,16 +3,21 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.common.exceptions import TimeoutException
 import os
 import json
 import traceback
 import time
 from urllib.parse import urlsplit
 import pandas as pd
+from dotenv import load_dotenv
 
-email = "kewev11524@biiba.com"
-passwd = "olaamigo2020"
+load_dotenv()
+
+email = os.getenv('email')
+passwd = os.getenv('password')
 
 def save_cookie(driver, path):
     with open(path, 'w') as filehandler:
@@ -24,35 +29,43 @@ def load_cookie(driver, path):
     for cookie in cookies:
         driver.add_cookie(cookie)
 
-def scroll(driver, timeout):
-    scroll_pause_time = timeout
+def process_info(driver):
+    print("Start processing info...")
+    rows = driver.find_elements_by_css_selector("div[data-test=\"StartupResult\"]")
 
-    # Get scroll height
-    last_height = driver.execute_script("return document.body.scrollHeight")
+    # Go up again to avoid problems
+    driver.execute_script("window.scrollTo(0, 0);")
 
-    while True:
-        # Scroll down to bottom
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    # From the scrolled page, get all the employers' company links
+    for row in rows:
+        df = pd.read_excel('scraped.xlsx') if os.path.exists('./scraped.xlsx') else pd.DataFrame(columns=["Company Name", "Company Website"])
+        row.find_element_by_css_selector("div:first-child > a:first-child").click() # Open modal
+        name = wait.until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content [class*=\"styles_header\"] h2"))
+        ).text
+        website_el = wait.until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content [class*=\"styles_website\"] a:first-child"))
+        ).get_attribute('href')
+        website = urlsplit(website_el).netloc.replace('www.', '') if website_el else "-" # Get website
+        wait.until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content button[class*=\"styles_regular\"]:nth-child(2)"))
+        ).click()
 
-        # Wait to load page
-        time.sleep(scroll_pause_time)
+        df = df.append({
+            "Company Name": name,
+            "Company Website": website
+        }, ignore_index=True)
+        df = df.drop_duplicates(subset=["Company Website"], keep="last")
+        df.to_excel('scraped.xlsx', index=False)
 
-        # Calculate new scroll height and compare with last scroll height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            # If heights are the same it will exit the function
-            break
-        last_height = new_height
+        time.sleep(1)
+
+    # Go up again to avoid problems
+    driver.execute_script("window.scrollTo(0, 0);")
+    print("Done processing info")
 
 try:
     user_agent = "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3"
-
-    """
-    options = Options()
-    options.add_argument('user-agent=')
-    options.add_argument("user-data-dir=./tmp/")
-    driver = webdriver.Chrome(options=options)
-    """
 
     profile = webdriver.FirefoxProfile()
     profile.set_preference('dom.webdriver.enabled', False)
@@ -63,7 +76,7 @@ try:
 
     driver = webdriver.Firefox(firefox_profile=profile, desired_capabilities=desired)
 
-    wait = WebDriverWait(driver, 60)
+    wait = WebDriverWait(driver, 600)
 
     # Login
     driver.get('https://angel.co/login')
@@ -81,32 +94,47 @@ try:
     table_url = "https://angel.co/jobs"
     driver.get(table_url)
 
-    # Infinite scroll - 12s sleep for each scroll
-    # scroll(driver, 12)
+    # Scrolling
+    load = 9 # divs loaded at each scrolling - number of divs removed
+    scroll_pause_time = 8
 
-    rows = driver.find_elements_by_css_selector("div[data-test=\"StartupResult\"]")
+    # Get scroll height
+    last_height = driver.execute_script("return document.body.scrollHeight")
 
-    # From the scrolled page, get all the employers' company links
-    for row in rows:
-        df = pd.read_excel('scraped.xlsx') if os.path.exists('./scraped.xlsx') else pd.DataFrame(columns=["Company Name", "Company Website"])
-        row.find_element_by_css_selector("div:first-child > a:first-child").click() # Open modal
-        name = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content [class*=\"styles_header\"] > a:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)"))
-        ).text
-        website = urlsplit(wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content [class*=\"styles_website\"] a:first-child"))
-        ).get_attribute('href')).netloc.replace('www.', '') # Get website
-        wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content button[class*=\"styles_regular\"]:nth-child(2)"))
-        ).click()
+    while True:
+        # Scroll down to bottom
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-        df = df.append({
-            "Company Name": name,
-            "Company Website": website
-        }, ignore_index=True)
-        df = df.drop_duplicates(subset=["Company Website"], keep="first")
-        df.to_excel('scraped.xlsx', index=False)
+        # Wait to load page
+        time.sleep(scroll_pause_time)
 
+        # Calculate new scroll height and compare with last scroll height
+        new_height = driver.execute_script("return document.body.scrollHeight")
+
+        try:
+            if new_height == last_height:
+                # If heights are the same it will exit the function
+                print("Heights are the same, so it's the end")
+                process_info(driver)
+                break
+            else:
+                last_height = new_height
+
+                process_info(driver)
+
+                row_nr = int(driver.execute_script("return document.querySelectorAll(\"div[data-test*='JobSearchResults'] div[data-test*='StartupResult']\").length;")) - 2
+
+                # Delete first all rows, except for two
+                for i in range(0, row_nr):
+                    driver.execute_script(f"document.querySelector(\"div[data-test*='JobSearchResults'] div[data-test*='StartupResult']\").remove()")
+
+                time.sleep(5)
+        except TimeoutException as ex:
+            print("Timeout exception")
+            wait.until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".ReactModal__Content button[class*=\"styles_regular\"]:nth-child(2)"))
+            ).click()
+            continue
 except KeyboardInterrupt:
     quit()
 except Exception as ex:
